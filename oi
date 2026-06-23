@@ -1,0 +1,40 @@
+public class oioi{
+
+
+public static void main(String[] args){
+
+double nota = 8.5;
+
+if(nota>=7.0){
+    System.out.println("Aprovado direto");
+
+}else if(nota>=5.0){
+   System.out.println("Recuperacao ainda ha chance.");
+
+}else{System.out.println("Reprovado");}
+
+
+}
+
+}
+
+public class bilubilu{
+
+
+public static void main(String[] args){
+
+double nota1 = 8.5;
+double nota2 = 4.0;
+
+double media = (nota1 + nota2)/2;
+System.out.println("Media das notas" + media);
+
+boolean passou = media >= 7.0;
+boolean presencaminima = true;
+
+boolean aprovadoFinal = passou && presencaminima;
+System.out.println("O aluno foi aprovado? " + aprovadoFinal);
+
+}   
+
+}
